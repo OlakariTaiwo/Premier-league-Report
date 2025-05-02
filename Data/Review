@@ -1,0 +1,23 @@
+## 📊 Data Overview
+
+This Power BI report is built using historical English Premier League match data sourced from [football-data.co.uk](http://football-data.co.uk/). The dataset includes detailed match statistics across multiple seasons and covers various performance metrics for both home and away teams.
+
+### ✅ Key Data Fields:
+
+- **Match Info:** Date, Season, Division, Matchweek, Referee  
+- **Teams:** Home Team, Away Team  
+- **Scores:** Full-Time Home Goals (FTHG), Full-Time Away Goals (FTAG), Result (Win/Draw/Loss)  
+- **Half-Time Data:** Half-Time Home Goals, Half-Time Away Goals, Half-Time Result  
+- **Match Statistics:**
+  - Shots, Shots on Target  
+  - Fouls, Corners, Yellow/Red Cards  
+  - xG (expected goals), if available  
+- **Betting Odds (Optional):** Odds for home win, draw, and away win from multiple bookmakers  
+- **Derived Metrics:** Team performance stats like Wins, Draws, Losses, Points, Goal Difference, etc.
+
+### 🗂 Data Structure:
+
+- A single, cleaned table named `premierleague_data`
+- Measures stored in a dedicated table called `Base Measure` for improved performance and maintainability
+
+This dataset enables deep analysis of team form, league standings, and historical performance trends.
