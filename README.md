@@ -41,12 +41,10 @@ New_Premier_PowerBI/
 │
 ├── 📂 docs/
 │ └── data_overview.md # Detailed explanation of data fields and structure
-│ └── metrics_explained.md # Optional: Describe each DAX measure
+│ └── metrics_explained.md 
 │
-├── 📂 assets/
+├── 📂 Dashboards/
 │ └── preview.png # Optional: Screenshots of report visuals
-│
-├── .gitignore # Git ignore file (can exclude .pbix if repo is public)
 ├── README.md # Project overview and setup instructions
 
 
