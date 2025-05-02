@@ -1,4 +1,4 @@
-# Premier-league-Report
+
 # 🏆 Premier League Power BI Report
 
 An interactive Power BI report analyzing historical English Premier League data. Built from a cleaned dataset containing match results, team statistics, and performance metrics, this report provides insights into team form, standings, and trends across multiple seasons.
